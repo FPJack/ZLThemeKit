@@ -59,8 +59,8 @@ normal            image_red       image_red   image6
     NSDictionary *plistData = [NSDictionary dictionaryWithContentsOfFile:plistPath];
     [ZLThemeManager.share loadFromDictionaryInfo:plistData];
 ```
-       
-    通过themeKit消息转发对象配置各种view的颜色、图片等属性
+
+通过themeKit消息转发对象配置各种view的颜色、图片等属性
 ```objc
     TableCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TableCell" forIndexPath:indexPath];
     cell.label.text = [NSString stringWithFormat:@"This is row %ld", (long)indexPath.row];
@@ -72,7 +72,7 @@ normal            image_red       image_red   image6
     [cell.button.themeKit setImage:kImageWithKey(@"image4") forState:UIControlStateSelected];
 ```   
     
-    修改主题
+修改主题
 ```objc
     [ZLThemeManager.share updateTheme:@"NORMAL"];
 ```   
