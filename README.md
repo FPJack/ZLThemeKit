@@ -13,8 +13,23 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ZLThemeKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+
+
+
 ```ruby
 pod 'ZLThemeKit'
+```
+
+颜色配置文件格式
+```txt
+NORMAL   NIGHT    RED
+#ffffff  #343434  #fafafa BG
+#aaaaaa  #313131  #aaaaaa SEP
+#0000ff  #ffff00  #fa0000 TINT
+#000000  #00ffff  #ff00ff TEXT
+#0000ff  #00ffff  #ff00ff RICH
+#ffffff  #444444  #ff00ff BAR
+#f0f0f0  #222222  #dedede HIGHLIGHTED
 ```
 
 通过txt文件加载颜色配置
