@@ -32,6 +32,17 @@ NORMAL   NIGHT    RED
 #f0f0f0  #222222  #dedede HIGHLIGHTED
 ```
 
+图片配置文件格式
+```txt
+NORMAL                              NIGHT                     RED
+night1                              normal                 image_red   image2
+image_blue                          image_red               night       image3
+normal                              image_red                 image_red   image4
+normal                               image_red                image_red   image5
+normal                               image_red                image_red   image6
+```
+
+
 通过txt文件加载颜色配置
 ```objc
     ZLThemeManager.share loadColorFilePath:@"GMColorTable.txt"];
