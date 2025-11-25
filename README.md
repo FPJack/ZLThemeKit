@@ -70,7 +70,16 @@ normal            image_red       image_red   image6
     cell.progress.themeKit.tintColor = kColorWithKey(@"TINT");
     [cell.button.themeKit setImage:kImageWithKey(@"image3") forState:UIControlStateNormal];
     [cell.button.themeKit setImage:kImageWithKey(@"image4") forState:UIControlStateSelected];
-```   
+``` 
+
+通过block的方法配置与view主题相关的属性更灵活
+```objc
+    [view themeKit:^(UIControl * _Nonnull view) {
+        view.backgroundColor = kColorWithKey(@"BG");
+        
+    }];
+```
+  
     
 修改主题
 ```objc
