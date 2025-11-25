@@ -34,12 +34,12 @@ NORMAL   NIGHT    RED
 
 图片配置文件格式
 ```txt
-NORMAL                              NIGHT                     RED
-night1                              normal                 image_red   image2
-image_blue                          image_red               night       image3
-normal                              image_red                 image_red   image4
-normal                               image_red                image_red   image5
-normal                               image_red                image_red   image6
+NORMAL            NIGHT           RED
+night1            normal          image_red   image2
+image_blue        image_red       night       image3
+normal            image_red       image_red   image4
+normal            image_red       image_red   image5
+normal            image_red       image_red   image6
 ```
 
 
