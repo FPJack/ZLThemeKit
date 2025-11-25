@@ -53,7 +53,7 @@ normal            image_red       image_red   image6
     ZLThemeManager.share loadImageFilePath:@"GMImageTable.txt"];
 ```
 
-通过plist.info文件加载主题配置
+通过plist.info文件加载主题配置（txt还是plist.info加载二选一）
 ```objc
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"Configure" ofType:@"plist"];
     NSDictionary *plistData = [NSDictionary dictionaryWithContentsOfFile:plistPath];
