@@ -14,7 +14,7 @@ ZLThemeKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 <p align="center">
-  <img src="https://github.com/FPJack/ZLThemeKit/blob/master/test.png" width="240" alt="ZLPermission Logo">
+  <img src="https://github.com/FPJack/ZLThemeKit/blob/master/test.GIF" width="240" alt="ZLPermission Logo">
 </p>
 
 
