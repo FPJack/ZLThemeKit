@@ -75,9 +75,8 @@ normal            image_red       image_red   image6
 
 通过block的方法配置与view主题相关的属性更灵活
 ```objc
-    [view themeKit:^(UIControl * _Nonnull view) {
+    [view themeKit:^(UIView * _Nonnull view) {
         view.backgroundColor = kColorWithKey(@"BG");
-        
     }];
 ```
   
