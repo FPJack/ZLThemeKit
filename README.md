@@ -2,14 +2,6 @@
 一个iOS多主题切换的库，支持运行时切换主题，支持多种主题资源类型，使用简单方便。
 
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
 
 <p align="center">
   <img src="https://github.com/FPJack/ZLThemeKit/blob/master/test.GIF" width="240" alt="ZLPermission Logo">
