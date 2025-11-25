@@ -10,14 +10,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-ZLThemeKit is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
 <p align="center">
   <img src="https://github.com/FPJack/ZLThemeKit/blob/master/test.GIF" width="240" alt="ZLPermission Logo">
 </p>
 
-
+安装
 ```ruby
 pod 'ZLThemeKit'
 ```
