@@ -1,0 +1,10 @@
+    NORMAL                        NIGHT                     RED
+FPThemeKit/image_blue  GMBaseLocalize/GMLanguage/image_red   normal       image1
+night1                              normal                 image_red   image2
+image_blue                          image_red               night       image3
+normal                              image_red                 image_red   image4
+normal                               image_red                image_red   image5
+normal                               image_red                image_red   image6
+
+
+  

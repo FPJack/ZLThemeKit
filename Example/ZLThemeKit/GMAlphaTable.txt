@@ -1,0 +1,10 @@
+NORMAL   NIGHT    RED
+  0.2      0.5    0.8   alpha1
+  0.2      1      0.5   alpha2
+  0.8      0.3    0.6   alpha3
+  0.3      0.8    0.7   alpha4
+  0.2      0.7    0.9   alpha5
+  0.6      0.3    0.8   alpha6
+
+
+  

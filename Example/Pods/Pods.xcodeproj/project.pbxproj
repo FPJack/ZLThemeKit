@@ -1,0 +1,1197 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026F2D3F048DFA95005258E15C4573F8 /* Pods-ZLThemeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B111984D72EC656CA3E13706EBE324 /* Pods-ZLThemeKit_Tests-dummy.m */; };
+		0AE1FFAA4390B36294D9A3C1E9A2D181 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */; };
+		12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13969909863EA7C4CEEAC032C66C3560 /* ZLThemeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78145D8A5DADF5E81085B58B569FC276 /* ZLThemeKit-dummy.m */; };
+		267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		33E349E32C64A93B3CAC6A2667583E98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */; };
+		353C290E5482C0D6B7DE9A2390530C93 /* Pods-ZLThemeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6167B16BCA6B21E104BB5009C1658B4 /* Pods-ZLThemeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3777A70A61ED49FCDDB07BE5F0A1C4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */; };
+		3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE7EC8ABF0CDB3213802912E1183FD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		47FAF3357AD734FB1B78003F9AD0282A /* ZLThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FB1EE794C7EA169451789F4395C7E7 /* ZLThemeManager.m */; };
+		55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		6139E5C37190901E1EB979E17A9B315B /* ZLThemeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32098F1F8F71CE380B24731A8F5AE241 /* ZLThemeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		69C849E51FB6978B563FD2A6E43B0602 /* IGMTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A3DB6620B281A796C280212C945598 /* IGMTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B30B292353435EC0AFA44C8ECF3BF84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		6D4FA6603F3DDF3392F3D088D5901D61 /* ZLThemeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D94FAD5FAA6A521AACC4DD11526956B0 /* ZLThemeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		7CA66236CDA347ACA342DBCAA0F75C7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		7E9C6FF8FEBA6681965DA518C7F00597 /* ZLProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C03F2169DAF1EB15FEF4402F9671AFA /* ZLProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		9E59DE9F14930906849E279C231F5DC5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D821A88E5F040E7D009A3F1BC7C09256 /* PrivacyInfo.xcprivacy */; };
+		AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		B217EE4696C513366C4AB0842CC72038 /* ZLThemeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A0599D834174674C2D8566B65B381D /* ZLThemeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4662339D140ECFE25D4D64F48C82129 /* Pods-ZLThemeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E1D319B4EB3995870E2EE25E3E1312 /* Pods-ZLThemeKit_Example-dummy.m */; };
+		CAFC70CE0370E117D6798330FB7B4C64 /* ZLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 919C1B2A80F2CC4203D13BDC2E6BFC32 /* ZLProxy.m */; };
+		CB241892850C886793A22B4FB74A166F /* ZLThemeKit-ZLThemeKit_Rrivacy in Resources */ = {isa = PBXBuildFile; fileRef = 72770E9A840CEEC5E3FCDF6BB8740DC2 /* ZLThemeKit-ZLThemeKit_Rrivacy */; };
+		CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3CC7DAC246DE841D6ACECF05DAE15F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		F4DA810007D1F16CC833149463E44478 /* Pods-ZLThemeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD13A842EAD2D4AD5FB4085AB1D6B10 /* Pods-ZLThemeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E6DC1ABCDFA8335216C240DD5BF8541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6726A67A3F49876A37A01AD45A9AA8B0;
+			remoteInfo = ZLThemeKit;
+		};
+		A016BC1816B40FC049F76E937332A121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		AA149784727EE05A12F7B993FDCBEB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB3E6EC02F62E3E4B4D84899E64A30A;
+			remoteInfo = "Pods-ZLThemeKit_Example";
+		};
+		CA7177D8EE8ED7DF341266A13726C4D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1658DEDA2E322AC4821CF52EA554D71;
+			remoteInfo = "ZLThemeKit-ZLThemeKit_Rrivacy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		10B111984D72EC656CA3E13706EBE324 /* Pods-ZLThemeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLThemeKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		10E1D319B4EB3995870E2EE25E3E1312 /* Pods-ZLThemeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLThemeKit_Example-dummy.m"; sourceTree = "<group>"; };
+		1105273115CCC7E2BB97A7AFB9EF4559 /* Pods-ZLThemeKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLThemeKit_Example-Info.plist"; sourceTree = "<group>"; };
+		12C960C7AC2F0E622259826C1CF0AFBC /* ZLThemeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLThemeKit.debug.xcconfig; sourceTree = "<group>"; };
+		13AB723FE7D9346092B7F8189537B75B /* Pods-ZLThemeKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLThemeKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		13B0F9043FFD85729CBAAEED78082168 /* ZLThemeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLThemeKit.modulemap; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		32098F1F8F71CE380B24731A8F5AE241 /* ZLThemeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLThemeManager.h; path = ZLThemeKit/Classes/ZLThemeManager.h; sourceTree = "<group>"; };
+		324AEE46B48C33663513045CCE7AF053 /* ZLThemeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLThemeKit-Info.plist"; sourceTree = "<group>"; };
+		3633B10B84B554D3C473DB1C49598DB1 /* Pods-ZLThemeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLThemeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		396B44456C282D352F528D9235D67B06 /* Pods-ZLThemeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLThemeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		457121236C7127868B4D3D19E4E14E78 /* Pods-ZLThemeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLThemeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47A3DB6620B281A796C280212C945598 /* IGMTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGMTheme.h; path = ZLThemeKit/Classes/IGMTheme.h; sourceTree = "<group>"; };
+		4AD13A842EAD2D4AD5FB4085AB1D6B10 /* Pods-ZLThemeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLThemeKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		54EF67CD0677F2A66E05759C6B48CE8A /* Pods-ZLThemeKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZLThemeKit_Tests"; path = Pods_ZLThemeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56872C895F14F8D6A0ED76DAD911679B /* Pods-ZLThemeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLThemeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		576E1831C20E5E3C4C790413AA13787F /* Pods-ZLThemeKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLThemeKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		62B6EAFB5BA783E0C255BF72BB574289 /* Pods-ZLThemeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLThemeKit_Tests.modulemap"; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AA02C9BE68C87CDCD82456E2FC5C099 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		723BF68D31EE7CFB6745EE3AEEB67E20 /* ZLThemeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLThemeKit-prefix.pch"; sourceTree = "<group>"; };
+		72770E9A840CEEC5E3FCDF6BB8740DC2 /* ZLThemeKit-ZLThemeKit_Rrivacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZLThemeKit-ZLThemeKit_Rrivacy"; path = ZLThemeKit_Rrivacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		740C5B3B6A26A51A919E2470828BAD8C /* Pods-ZLThemeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLThemeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		78145D8A5DADF5E81085B58B569FC276 /* ZLThemeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLThemeKit-dummy.m"; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		85D68FCCFCC59F178E07F47EE8ADC613 /* Pods-ZLThemeKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZLThemeKit_Example"; path = Pods_ZLThemeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8A48C8BDD03319CCA811231446C70B3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8B573B6E2E11CDF7388C9CDF49E4464A /* ZLThemeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLThemeKit.release.xcconfig; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		919C1B2A80F2CC4203D13BDC2E6BFC32 /* ZLProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLProxy.m; path = ZLThemeKit/Classes/ZLProxy.m; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9C03F2169DAF1EB15FEF4402F9671AFA /* ZLProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLProxy.h; path = ZLThemeKit/Classes/ZLProxy.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A0599D834174674C2D8566B65B381D /* ZLThemeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLThemeKit.h; path = ZLThemeKit/Classes/ZLThemeKit.h; sourceTree = "<group>"; };
+		A9592A6F10FA43E359BEF3338085D72D /* Pods-ZLThemeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLThemeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB65CB0D14C3B722961E2A1A0610C239 /* Pods-ZLThemeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLThemeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B6167B16BCA6B21E104BB5009C1658B4 /* Pods-ZLThemeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLThemeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		BB002A882BD603866BF5409ACB0B4CC0 /* Pods-ZLThemeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLThemeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C053AAEBD666D22E7A7E4B50D7C76C77 /* ZLThemeKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLThemeKit; path = ZLThemeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CD2689378A297C067874AEB51AA9D772 /* Pods-ZLThemeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLThemeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD7C1A0AA8380B20F93AF531C03573D4 /* Pods-ZLThemeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLThemeKit_Example.modulemap"; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D821A88E5F040E7D009A3F1BC7C09256 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = ZLThemeKit/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D94FAD5FAA6A521AACC4DD11526956B0 /* ZLThemeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLThemeKit-umbrella.h"; sourceTree = "<group>"; };
+		DA1C7F488A78804093715F33483F33D8 /* ZLThemeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLThemeKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2FB1EE794C7EA169451789F4395C7E7 /* ZLThemeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLThemeManager.m; path = ZLThemeKit/Classes/ZLThemeManager.m; sourceTree = "<group>"; };
+		F9A11A6F1B976AF813BBF390F5F2F06B /* ResourceBundle-ZLThemeKit_Rrivacy-ZLThemeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZLThemeKit_Rrivacy-ZLThemeKit-Info.plist"; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2555CEF943DD9E4F529908609144CCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE7EC8ABF0CDB3213802912E1183FD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465964FD494F13DF07B364B260F11563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A53D356CB5734DCB09D684AE78297A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B30B292353435EC0AFA44C8ECF3BF84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BC440CA96A0C74FE20742C26FF53BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA66236CDA347ACA342DBCAA0F75C7A /* Foundation.framework in Frameworks */,
+				33E349E32C64A93B3CAC6A2667583E98 /* QuartzCore.framework in Frameworks */,
+				3777A70A61ED49FCDDB07BE5F0A1C4B4 /* UIKit.framework in Frameworks */,
+				0AE1FFAA4390B36294D9A3C1E9A2D181 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09CB3A26E7BDE59EECED2A7B7A85AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3CC7DAC246DE841D6ACECF05DAE15F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D8A7C387938C6343362BA8EE5C4341 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B1423720E06D86260561CCF26719BFF /* Pods-ZLThemeKit_Example */,
+				4D618536D189B5265D666BE7BC182752 /* Pods-ZLThemeKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1B1423720E06D86260561CCF26719BFF /* Pods-ZLThemeKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CD7C1A0AA8380B20F93AF531C03573D4 /* Pods-ZLThemeKit_Example.modulemap */,
+				BB002A882BD603866BF5409ACB0B4CC0 /* Pods-ZLThemeKit_Example-acknowledgements.markdown */,
+				396B44456C282D352F528D9235D67B06 /* Pods-ZLThemeKit_Example-acknowledgements.plist */,
+				10E1D319B4EB3995870E2EE25E3E1312 /* Pods-ZLThemeKit_Example-dummy.m */,
+				56872C895F14F8D6A0ED76DAD911679B /* Pods-ZLThemeKit_Example-frameworks.sh */,
+				1105273115CCC7E2BB97A7AFB9EF4559 /* Pods-ZLThemeKit_Example-Info.plist */,
+				4AD13A842EAD2D4AD5FB4085AB1D6B10 /* Pods-ZLThemeKit_Example-umbrella.h */,
+				CD2689378A297C067874AEB51AA9D772 /* Pods-ZLThemeKit_Example.debug.xcconfig */,
+				AB65CB0D14C3B722961E2A1A0610C239 /* Pods-ZLThemeKit_Example.release.xcconfig */,
+			);
+			name = "Pods-ZLThemeKit_Example";
+			path = "Target Support Files/Pods-ZLThemeKit_Example";
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4D618536D189B5265D666BE7BC182752 /* Pods-ZLThemeKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62B6EAFB5BA783E0C255BF72BB574289 /* Pods-ZLThemeKit_Tests.modulemap */,
+				457121236C7127868B4D3D19E4E14E78 /* Pods-ZLThemeKit_Tests-acknowledgements.markdown */,
+				740C5B3B6A26A51A919E2470828BAD8C /* Pods-ZLThemeKit_Tests-acknowledgements.plist */,
+				10B111984D72EC656CA3E13706EBE324 /* Pods-ZLThemeKit_Tests-dummy.m */,
+				13AB723FE7D9346092B7F8189537B75B /* Pods-ZLThemeKit_Tests-frameworks.sh */,
+				576E1831C20E5E3C4C790413AA13787F /* Pods-ZLThemeKit_Tests-Info.plist */,
+				B6167B16BCA6B21E104BB5009C1658B4 /* Pods-ZLThemeKit_Tests-umbrella.h */,
+				3633B10B84B554D3C473DB1C49598DB1 /* Pods-ZLThemeKit_Tests.debug.xcconfig */,
+				A9592A6F10FA43E359BEF3338085D72D /* Pods-ZLThemeKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZLThemeKit_Tests";
+			path = "Target Support Files/Pods-ZLThemeKit_Tests";
+			sourceTree = "<group>";
+		};
+		89736692DF329F0B9BF3EFFCEA69EA54 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */,
+				5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */,
+				4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */,
+				26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		94731D0B39F2AC27B446122BDA4468F6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8A48C8BDD03319CCA811231446C70B3F /* LICENSE */,
+				6AA02C9BE68C87CDCD82456E2FC5C099 /* README.md */,
+				DA1C7F488A78804093715F33483F33D8 /* ZLThemeKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A0CF3B8434C8F8D4EB7115D83E3A6317 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9A11A6F1B976AF813BBF390F5F2F06B /* ResourceBundle-ZLThemeKit_Rrivacy-ZLThemeKit-Info.plist */,
+				13B0F9043FFD85729CBAAEED78082168 /* ZLThemeKit.modulemap */,
+				78145D8A5DADF5E81085B58B569FC276 /* ZLThemeKit-dummy.m */,
+				324AEE46B48C33663513045CCE7AF053 /* ZLThemeKit-Info.plist */,
+				723BF68D31EE7CFB6745EE3AEEB67E20 /* ZLThemeKit-prefix.pch */,
+				D94FAD5FAA6A521AACC4DD11526956B0 /* ZLThemeKit-umbrella.h */,
+				12C960C7AC2F0E622259826C1CF0AFBC /* ZLThemeKit.debug.xcconfig */,
+				8B573B6E2E11CDF7388C9CDF49E4464A /* ZLThemeKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZLThemeKit";
+			sourceTree = "<group>";
+		};
+		A9A2E1EE08B19C54B10463FB42D61270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				85D68FCCFCC59F178E07F47EE8ADC613 /* Pods-ZLThemeKit_Example */,
+				54EF67CD0677F2A66E05759C6B48CE8A /* Pods-ZLThemeKit_Tests */,
+				C053AAEBD666D22E7A7E4B50D7C76C77 /* ZLThemeKit */,
+				72770E9A840CEEC5E3FCDF6BB8740DC2 /* ZLThemeKit-ZLThemeKit_Rrivacy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89736692DF329F0B9BF3EFFCEA69EA54 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E18A4E8BA74F224A66AFCAEF4E7072C5 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				A9A2E1EE08B19C54B10463FB42D61270 /* Products */,
+				13D8A7C387938C6343362BA8EE5C4341 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E18A4E8BA74F224A66AFCAEF4E7072C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2BBD6D5D60BED08B341F61FF0D435 /* ZLThemeKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAD2BBD6D5D60BED08B341F61FF0D435 /* ZLThemeKit */ = {
+			isa = PBXGroup;
+			children = (
+				47A3DB6620B281A796C280212C945598 /* IGMTheme.h */,
+				D821A88E5F040E7D009A3F1BC7C09256 /* PrivacyInfo.xcprivacy */,
+				9C03F2169DAF1EB15FEF4402F9671AFA /* ZLProxy.h */,
+				919C1B2A80F2CC4203D13BDC2E6BFC32 /* ZLProxy.m */,
+				A0A0599D834174674C2D8566B65B381D /* ZLThemeKit.h */,
+				32098F1F8F71CE380B24731A8F5AE241 /* ZLThemeManager.h */,
+				E2FB1EE794C7EA169451789F4395C7E7 /* ZLThemeManager.m */,
+				94731D0B39F2AC27B446122BDA4468F6 /* Pod */,
+				A0CF3B8434C8F8D4EB7115D83E3A6317 /* Support Files */,
+			);
+			name = ZLThemeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28872FCE1BA7AABDEA39AE22AD0F149D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C849E51FB6978B563FD2A6E43B0602 /* IGMTheme.h in Headers */,
+				7E9C6FF8FEBA6681965DA518C7F00597 /* ZLProxy.h in Headers */,
+				B217EE4696C513366C4AB0842CC72038 /* ZLThemeKit.h in Headers */,
+				6D4FA6603F3DDF3392F3D088D5901D61 /* ZLThemeKit-umbrella.h in Headers */,
+				6139E5C37190901E1EB979E17A9B315B /* ZLThemeManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E9F52DB2B2624EE583DFEEC28B7DFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353C290E5482C0D6B7DE9A2390530C93 /* Pods-ZLThemeKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A11A4ED6C92ACA1C089260BA3F0C776 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */,
+				3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */,
+				CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */,
+				DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */,
+				E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */,
+				F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */,
+				64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD78A0371A23CC93E2B1FAA93692780 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DA810007D1F16CC833149463E44478 /* Pods-ZLThemeKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6726A67A3F49876A37A01AD45A9AA8B0 /* ZLThemeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DF49646F66C54F442007D58BF2D087 /* Build configuration list for PBXNativeTarget "ZLThemeKit" */;
+			buildPhases = (
+				28872FCE1BA7AABDEA39AE22AD0F149D /* Headers */,
+				70FD1E91B8F4F1F17185F667606A67DD /* Sources */,
+				60A53D356CB5734DCB09D684AE78297A /* Frameworks */,
+				0C4E4225B7D2A277D91F6D6A92666061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5545E7DB0DDA0FD13E0B2C8D4084B081 /* PBXTargetDependency */,
+			);
+			name = ZLThemeKit;
+			productName = ZLThemeKit;
+			productReference = C053AAEBD666D22E7A7E4B50D7C76C77 /* ZLThemeKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC516C05B9400D8A84F4CE51D02E9A3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				6A11A4ED6C92ACA1C089260BA3F0C776 /* Headers */,
+				7D9C35C9AB822511516CD6F4A5D159B8 /* Sources */,
+				98BC440CA96A0C74FE20742C26FF53BB /* Frameworks */,
+				DF3460C426E5BF623E72782B660ED260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BB3E6EC02F62E3E4B4D84899E64A30A /* Pods-ZLThemeKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682F3C4BD739F472D12148050B1990B2 /* Build configuration list for PBXNativeTarget "Pods-ZLThemeKit_Example" */;
+			buildPhases = (
+				BCD78A0371A23CC93E2B1FAA93692780 /* Headers */,
+				07ABA82BAFF999D5D899BF75C0B793E5 /* Sources */,
+				B09CB3A26E7BDE59EECED2A7B7A85AD8 /* Frameworks */,
+				F48952D1BDDD93A880D1C6C91D6E77CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D5E6B12AD67E66854F21E85F0638F7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLThemeKit_Example";
+			productName = Pods_ZLThemeKit_Example;
+			productReference = 85D68FCCFCC59F178E07F47EE8ADC613 /* Pods-ZLThemeKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DFB0B965E2F2762332AE4F775C12E35 /* Pods-ZLThemeKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E685233E4EFFFB7C43F116712AF84C58 /* Build configuration list for PBXNativeTarget "Pods-ZLThemeKit_Tests" */;
+			buildPhases = (
+				45E9F52DB2B2624EE583DFEEC28B7DFD /* Headers */,
+				6C7BDEE69F55CBBA5C27411C23A523B3 /* Sources */,
+				2555CEF943DD9E4F529908609144CCB1 /* Frameworks */,
+				E6D2F2E160457FEAD80AC59DB68550AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9D17AD81BB834205099F7B7EBA77EE /* PBXTargetDependency */,
+				9EEA79C4355D8C2C4AD5F02511E23BAF /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLThemeKit_Tests";
+			productName = Pods_ZLThemeKit_Tests;
+			productReference = 54EF67CD0677F2A66E05759C6B48CE8A /* Pods-ZLThemeKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1658DEDA2E322AC4821CF52EA554D71 /* ZLThemeKit-ZLThemeKit_Rrivacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74387727C5CF48D0D4C8C0A72E3BDDA9 /* Build configuration list for PBXNativeTarget "ZLThemeKit-ZLThemeKit_Rrivacy" */;
+			buildPhases = (
+				E31FC9561C92EB23735157F3DAC861E1 /* Sources */,
+				465964FD494F13DF07B364B260F11563 /* Frameworks */,
+				E6991FE781F04AB63F8DD5D697D5A63F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZLThemeKit-ZLThemeKit_Rrivacy";
+			productName = ZLThemeKit_Rrivacy;
+			productReference = 72770E9A840CEEC5E3FCDF6BB8740DC2 /* ZLThemeKit-ZLThemeKit_Rrivacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A9A2E1EE08B19C54B10463FB42D61270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				9BB3E6EC02F62E3E4B4D84899E64A30A /* Pods-ZLThemeKit_Example */,
+				9DFB0B965E2F2762332AE4F775C12E35 /* Pods-ZLThemeKit_Tests */,
+				6726A67A3F49876A37A01AD45A9AA8B0 /* ZLThemeKit */,
+				E1658DEDA2E322AC4821CF52EA554D71 /* ZLThemeKit-ZLThemeKit_Rrivacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C4E4225B7D2A277D91F6D6A92666061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB241892850C886793A22B4FB74A166F /* ZLThemeKit-ZLThemeKit_Rrivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3460C426E5BF623E72782B660ED260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6991FE781F04AB63F8DD5D697D5A63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E59DE9F14930906849E279C231F5DC5 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D2F2E160457FEAD80AC59DB68550AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48952D1BDDD93A880D1C6C91D6E77CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07ABA82BAFF999D5D899BF75C0B793E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4662339D140ECFE25D4D64F48C82129 /* Pods-ZLThemeKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7BDEE69F55CBBA5C27411C23A523B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026F2D3F048DFA95005258E15C4573F8 /* Pods-ZLThemeKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70FD1E91B8F4F1F17185F667606A67DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFC70CE0370E117D6798330FB7B4C64 /* ZLProxy.m in Sources */,
+				13969909863EA7C4CEEAC032C66C3560 /* ZLThemeKit-dummy.m in Sources */,
+				47FAF3357AD734FB1B78003F9AD0282A /* ZLThemeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9C35C9AB822511516CD6F4A5D159B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */,
+				E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */,
+				AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */,
+				267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */,
+				8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */,
+				CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */,
+				593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */,
+				766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */,
+				EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31FC9561C92EB23735157F3DAC861E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5545E7DB0DDA0FD13E0B2C8D4084B081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZLThemeKit-ZLThemeKit_Rrivacy";
+			target = E1658DEDA2E322AC4821CF52EA554D71 /* ZLThemeKit-ZLThemeKit_Rrivacy */;
+			targetProxy = CA7177D8EE8ED7DF341266A13726C4D0 /* PBXContainerItemProxy */;
+		};
+		9EEA79C4355D8C2C4AD5F02511E23BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZLThemeKit_Example";
+			target = 9BB3E6EC02F62E3E4B4D84899E64A30A /* Pods-ZLThemeKit_Example */;
+			targetProxy = AA149784727EE05A12F7B993FDCBEB0E /* PBXContainerItemProxy */;
+		};
+		F8D5E6B12AD67E66854F21E85F0638F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLThemeKit;
+			target = 6726A67A3F49876A37A01AD45A9AA8B0 /* ZLThemeKit */;
+			targetProxy = 1E6DC1ABCDFA8335216C240DD5BF8541 /* PBXContainerItemProxy */;
+		};
+		FC9D17AD81BB834205099F7B7EBA77EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = A016BC1816B40FC049F76E937332A121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16310CA0EB20198997B28E17183C328B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C960C7AC2F0E622259826C1CF0AFBC /* ZLThemeKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLThemeKit";
+				IBSC_MODULE = ZLThemeKit;
+				INFOPLIST_FILE = "Target Support Files/ZLThemeKit/ResourceBundle-ZLThemeKit_Rrivacy-ZLThemeKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ZLThemeKit_Rrivacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		189B160941C76FA2A15D741807CCB47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19788069779EDB34CE1FAE5F6A2595F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB65CB0D14C3B722961E2A1A0610C239 /* Pods-ZLThemeKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLThemeKit_Example/Pods-ZLThemeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLThemeKit_Example/Pods-ZLThemeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48DE2ADA198DD6344F2EFF0C143E959B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51D2247C3F6C11880BD01626FE715816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B573B6E2E11CDF7388C9CDF49E4464A /* ZLThemeKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLThemeKit";
+				IBSC_MODULE = ZLThemeKit;
+				INFOPLIST_FILE = "Target Support Files/ZLThemeKit/ResourceBundle-ZLThemeKit_Rrivacy-ZLThemeKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ZLThemeKit_Rrivacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		72AB57929B94301B184439D60F93B3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2689378A297C067874AEB51AA9D772 /* Pods-ZLThemeKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLThemeKit_Example/Pods-ZLThemeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLThemeKit_Example/Pods-ZLThemeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7552024D501635E586419C3216AA964A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C960C7AC2F0E622259826C1CF0AFBC /* ZLThemeKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZLThemeKit/ZLThemeKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZLThemeKit/ZLThemeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLThemeKit/ZLThemeKit.modulemap";
+				PRODUCT_MODULE_NAME = ZLThemeKit;
+				PRODUCT_NAME = ZLThemeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		89C453887ECACDD703D43E86482C0E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3633B10B84B554D3C473DB1C49598DB1 /* Pods-ZLThemeKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLThemeKit_Tests/Pods-ZLThemeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLThemeKit_Tests/Pods-ZLThemeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4864777164A7B2739D9392A7C2BB92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9592A6F10FA43E359BEF3338085D72D /* Pods-ZLThemeKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLThemeKit_Tests/Pods-ZLThemeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLThemeKit_Tests/Pods-ZLThemeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA665A2E56D2D73DE57A13505CA90E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B573B6E2E11CDF7388C9CDF49E4464A /* ZLThemeKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZLThemeKit/ZLThemeKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZLThemeKit/ZLThemeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLThemeKit/ZLThemeKit.modulemap";
+				PRODUCT_MODULE_NAME = ZLThemeKit;
+				PRODUCT_NAME = ZLThemeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DF49646F66C54F442007D58BF2D087 /* Build configuration list for PBXNativeTarget "ZLThemeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7552024D501635E586419C3216AA964A /* Debug */,
+				DA665A2E56D2D73DE57A13505CA90E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC516C05B9400D8A84F4CE51D02E9A3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DE2ADA198DD6344F2EFF0C143E959B /* Debug */,
+				189B160941C76FA2A15D741807CCB47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682F3C4BD739F472D12148050B1990B2 /* Build configuration list for PBXNativeTarget "Pods-ZLThemeKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AB57929B94301B184439D60F93B3DC /* Debug */,
+				19788069779EDB34CE1FAE5F6A2595F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74387727C5CF48D0D4C8C0A72E3BDDA9 /* Build configuration list for PBXNativeTarget "ZLThemeKit-ZLThemeKit_Rrivacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16310CA0EB20198997B28E17183C328B /* Debug */,
+				51D2247C3F6C11880BD01626FE715816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E685233E4EFFFB7C43F116712AF84C58 /* Build configuration list for PBXNativeTarget "Pods-ZLThemeKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C453887ECACDD703D43E86482C0E69 /* Debug */,
+				B4864777164A7B2739D9392A7C2BB92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

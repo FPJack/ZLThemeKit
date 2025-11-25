@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/fanpeng/ZLThemeKit'
+  s.homepage         = 'https://github.com/FPJack/ZLThemeKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fanpeng' => 'peng.fan@ukelink.com' }
-  s.source           = { :git => 'https://github.com/fanpeng/ZLThemeKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/FPJack/ZLThemeKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ZLThemeKit/Classes/**/*'
-  
+  s.resource_bundles = {'ZLThemeKit_Rrivacy' => ['ZLThemeKit/Resources/PrivacyInfo.xcprivacy']}
+
   # s.resource_bundles = {
   #   'ZLThemeKit' => ['ZLThemeKit/Assets/*.png']
   # }

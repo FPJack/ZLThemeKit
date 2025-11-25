@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZLThemeKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZLThemeKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZLThemeKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZLThemeKit: cc51c59a1381af42a97da9eded95e5d0898ee31b
+
+PODFILE CHECKSUM: d21663b54f1d6cbc0568504e479ee6bf52efb71d
+
+COCOAPODS: 1.16.2

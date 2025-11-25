@@ -22,6 +22,12 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8432B3102ED5992500617EFB /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8432B30F2ED5992500617EFB /* TableCell.xib */; };
+		8432B3112ED5992500617EFB /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8432B30E2ED5992500617EFB /* TableCell.m */; };
+		8432B3152ED59AF400617EFB /* GMImageTable.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8432B3142ED59AF400617EFB /* GMImageTable.txt */; };
+		8432B3162ED59AF400617EFB /* GMAlphaTable.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8432B3122ED59AF400617EFB /* GMAlphaTable.txt */; };
+		8432B3172ED59AF400617EFB /* GMColorTable.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8432B3132ED59AF400617EFB /* GMColorTable.txt */; };
+		8432B3192ED5A63B00617EFB /* Configure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8432B3182ED5A63B00617EFB /* Configure.plist */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		FC7F818C23048A5AFB0BF93C /* Pods_ZLThemeKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8E85A547400AAF8ECDDDD0 /* Pods_ZLThemeKit_Example.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +46,7 @@
 		2C8E85A547400AAF8ECDDDD0 /* Pods_ZLThemeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLThemeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F34F2AFB8D9967328DFFB93 /* Pods-ZLThemeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLThemeKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ZLThemeKit_Example/Pods-ZLThemeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4439DD0983E906A536926CEF /* Pods-ZLThemeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLThemeKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZLThemeKit_Tests/Pods-ZLThemeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		46143CE1928C2A5F5433A9DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		46143CE1928C2A5F5433A9DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZLThemeKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLThemeKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,11 +66,18 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		696EBC541C232F427CE23ECA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		696EBC541C232F427CE23ECA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8432B30D2ED5992500617EFB /* TableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		8432B30E2ED5992500617EFB /* TableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		8432B30F2ED5992500617EFB /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		8432B3122ED59AF400617EFB /* GMAlphaTable.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GMAlphaTable.txt; sourceTree = "<group>"; };
+		8432B3132ED59AF400617EFB /* GMColorTable.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GMColorTable.txt; sourceTree = "<group>"; };
+		8432B3142ED59AF400617EFB /* GMImageTable.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GMImageTable.txt; sourceTree = "<group>"; };
+		8432B3182ED5A63B00617EFB /* Configure.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configure.plist; sourceTree = "<group>"; };
 		8549E1D464A3D4417177378E /* Pods-ZLThemeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLThemeKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZLThemeKit_Example/Pods-ZLThemeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CDC0E2BAA0E4EB025BA4BCC /* ZLThemeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZLThemeKit.podspec; path = ../ZLThemeKit.podspec; sourceTree = "<group>"; };
+		8CDC0E2BAA0E4EB025BA4BCC /* ZLThemeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLThemeKit.podspec; path = ../ZLThemeKit.podspec; sourceTree = "<group>"; };
 		CD23A5BDFDF33F1338B99E70 /* Pods-ZLThemeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLThemeKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZLThemeKit_Tests/Pods-ZLThemeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E15690AEC107B4A6600A19B1 /* Pods_ZLThemeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLThemeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -137,6 +150,13 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZLViewController.h */,
 				6003F5A6195388D20070C39A /* ZLViewController.m */,
+				8432B30D2ED5992500617EFB /* TableCell.h */,
+				8432B30E2ED5992500617EFB /* TableCell.m */,
+				8432B3122ED59AF400617EFB /* GMAlphaTable.txt */,
+				8432B3132ED59AF400617EFB /* GMColorTable.txt */,
+				8432B3142ED59AF400617EFB /* GMImageTable.txt */,
+				8432B3182ED5A63B00617EFB /* Configure.plist */,
+				8432B30F2ED5992500617EFB /* TableCell.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +213,6 @@
 				4439DD0983E906A536926CEF /* Pods-ZLThemeKit_Tests.debug.xcconfig */,
 				CD23A5BDFDF33F1338B99E70 /* Pods-ZLThemeKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +227,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				7946E9A9E65E1D486734C23C /* [CP] Embed Pods Frameworks */,
+				3CBE4C4265A24BDD0F8621CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +268,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = fanpeng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6ZA44MJL83;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +282,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,8 +304,13 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				8432B3152ED59AF400617EFB /* GMImageTable.txt in Resources */,
+				8432B3162ED59AF400617EFB /* GMAlphaTable.txt in Resources */,
+				8432B3172ED59AF400617EFB /* GMColorTable.txt in Resources */,
+				8432B3192ED5A63B00617EFB /* Configure.plist in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				8432B3102ED5992500617EFB /* TableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +347,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3CBE4C4265A24BDD0F8621CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZLThemeKit_Example/Pods-ZLThemeKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZLThemeKit/ZLThemeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLThemeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLThemeKit_Example/Pods-ZLThemeKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6D141AD92908CD20960182BC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,24 +381,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLThemeKit_Tests/Pods-ZLThemeKit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7946E9A9E65E1D486734C23C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZLThemeKit_Example/Pods-ZLThemeKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZLThemeKit/ZLThemeKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLThemeKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLThemeKit_Example/Pods-ZLThemeKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7E65CC734206E9CDC4B5D1F2 /* [CP] Check Pods Manifest.lock */ = {
@@ -385,6 +414,7 @@
 			files = (
 				6003F59E195388D20070C39A /* ZLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZLViewController.m in Sources */,
+				8432B3112ED5992500617EFB /* TableCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,12 +543,17 @@
 			baseConfigurationReference = 8549E1D464A3D4417177378E /* Pods-ZLThemeKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6ZA44MJL83;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZLThemeKit/ZLThemeKit-Prefix.pch";
 				INFOPLIST_FILE = "ZLThemeKit/ZLThemeKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wws.themekit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "glcoalme-dev-all";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -529,12 +564,17 @@
 			baseConfigurationReference = 2F34F2AFB8D9967328DFFB93 /* Pods-ZLThemeKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6ZA44MJL83;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZLThemeKit/ZLThemeKit-Prefix.pch";
 				INFOPLIST_FILE = "ZLThemeKit/ZLThemeKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wws.themekit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "glcoalme-dev-all";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
