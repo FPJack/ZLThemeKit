@@ -60,6 +60,20 @@ normal            image_red       image_red   image6
     [ZLThemeManager.share loadFromDictionaryInfo:plistData];
 ```
 
+如果不用txt或plist文件配置，可以通过block的方式自定义颜色、图片等资源
+```objc
+    ZLThemeManager.share.pickerColorBlock = ^UIColor * _Nonnull(NSString * _Nullable key, NSString * _Nullable theme) {
+        if ([theme isEqualToString:@"NIGHT"]) {
+            return [UIColor blackColor];
+        } else if ([theme isEqualToString:@"RED"]) {
+            return [UIColor redColor];
+        } else {
+            return [UIColor whiteColor];
+        }
+    };
+```
+        
+
 通过themeKit消息转发对象配置各种view的颜色、图片等属性
 ```objc
     TableCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TableCell" forIndexPath:indexPath];

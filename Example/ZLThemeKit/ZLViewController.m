@@ -24,6 +24,7 @@
     {
         //通过txt加载
         [ZLThemeManager.share loadFromColorFilePath:@"GMColorTable.txt" imageFilePath:@"GMImageTable.txt" alphaFilePath:@"GMAlphaTable.txt"];
+        
     }
     
     {
