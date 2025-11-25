@@ -1,9 +1,5 @@
 # ZLThemeKit
 一个iOS多主题切换的库，支持运行时切换主题，支持多种主题资源类型，使用简单方便。
-[![CI Status](https://img.shields.io/travis/fanpeng/ZLThemeKit.svg?style=flat)](https://travis-ci.org/fanpeng/ZLThemeKit)
-[![Version](https://img.shields.io/cocoapods/v/ZLThemeKit.svg?style=flat)](https://cocoapods.org/pods/ZLThemeKit)
-[![License](https://img.shields.io/cocoapods/l/ZLThemeKit.svg?style=flat)](https://cocoapods.org/pods/ZLThemeKit)
-[![Platform](https://img.shields.io/cocoapods/p/ZLThemeKit.svg?style=flat)](https://cocoapods.org/pods/ZLThemeKit)
 
 ## Example
 
@@ -58,8 +54,8 @@ pod 'ZLThemeKit'
 ```objc
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"Configure" ofType:@"plist"];
     NSDictionary *plistData = [NSDictionary dictionaryWithContentsOfFile:plistPath];
-    [
-          
+```   
+       
 
 ## Author
 
