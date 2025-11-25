@@ -1,6 +1,7 @@
 # ZLThemeKit
 一个iOS多主题切换的库，支持运行时切换主题，支持多种主题资源类型，使用简单方便。
 
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -49,17 +50,12 @@ pod 'ZLThemeKit'
 ```objc
     [ZLThemeManager.share updateTheme:@"NORMAL"];
 ```   
-
-通过plist.info文件加载主题配置
-```objc
-    NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"Configure" ofType:@"plist"];
-    NSDictionary *plistData = [NSDictionary dictionaryWithContentsOfFile:plistPath];
-```   
-       
+   
+          
 
 ## Author
 
-fanpeng, peng.fan@ukelink.com
+fanpeng, 2551412939@qq.com
 
 ## License
 
