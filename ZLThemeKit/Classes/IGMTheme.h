@@ -22,12 +22,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @interface UIView()
-- (void)themeKit:(void (^)(UIView *  view))block;
+- (void)themeKit:(void (^)(__kindof UIView *  view))block;
 - (id<IGMThemeView>)themeKit;
 @end
 
 @interface UIControl()
-- (void)themeKit:(void (^)(UIControl *  view))block;
+- (void)themeKit:(void (^)(__kindof UIControl *  view))block;
 @end
 
 @protocol IGMThemeLabel <IGMThemeView>
@@ -36,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UILabel()
 - (id<IGMThemeLabel>)themeKit;
-- (void)themeKit:(void (^)(UILabel *  label))block;
+- (void)themeKit:(void (^)(__kindof UILabel *  label))block;
 @end
 
 @protocol IGMThemeTextField <IGMThemeView>
@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UITextField()
 - (id<IGMThemeTextField>)themeKit;
-- (void)themeKit:(void (^)(UITextField *  textField))block;
+- (void)themeKit:(void (^)(__kindof UITextField *  textField))block;
 @end
 
 @protocol IGMThemeTextView <IGMThemeView>
@@ -55,7 +55,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UITextView()
 - (id<IGMThemeTextView>)themeKit;
-- (void)themeKit:(void (^)(UITextView *  view))block;
+- (void)themeKit:(void (^)(__kindof UITextView *  view))block;
 @end
 
 @protocol IGMThemeImageView<IGMThemeView>
@@ -63,7 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UIImageView()
 - (id<IGMThemeImageView>)themeKit;
-- (void)themeKit:(void (^)(UIImageView *  view))block;
+- (void)themeKit:(void (^)(__kindof UIImageView *  view))block;
 @end
 
 
@@ -74,7 +74,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UIButton()
 - (id<IGMThemeButton>)themeKit;
-- (void)themeKit:(void (^)(UIButton *  view))block;
+- (void)themeKit:(void (^)(__kindof UIButton *  view))block;
 @end
 
 
@@ -82,7 +82,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UIBarButtonItem()
 - (id<IGMThemeBarButtonItem>)themeKit;
-- (void)themeKit:(void (^)(UIBarButtonItem *  barButtonItem))block;
+- (void)themeKit:(void (^)(__kindof UIBarButtonItem *  barButtonItem))block;
 @end
 
 
@@ -98,7 +98,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UINavigationBar()<IGMThemeNavigationBar>
 - (id<IGMThemeNavigationBar>)themeKit;
-- (void)themeKit:(void (^)(UINavigationBar *  navigationBar))block;
+- (void)themeKit:(void (^)(__kindof UINavigationBar *  navigationBar))block;
 @end
 
 
@@ -113,7 +113,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UINavigationBarAppearance()
 - (id<IGMThemeNavigationBarAppearance>)themeKit;
-- (void)themeKit:(void (^)(UINavigationBarAppearance *  navigationBarAppearance))block;
+- (void)themeKit:(void (^)(__kindof UINavigationBarAppearance *  navigationBarAppearance))block;
 @end
 
 
@@ -126,7 +126,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UIPageControl()
 - (id<IGMThemePageControl>)themeKit;
-- (void)themeKit:(void (^)(UIPageControl *  pageControl))block;
+- (void)themeKit:(void (^)(__kindof UIPageControl *  pageControl))block;
 @end
 
 
@@ -138,7 +138,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UIProgressView()
 - (id<IGMThemeProgressView>)themeKit;
-- (void)themeKit:(void (^)(UIProgressView *  progressView))block;
+- (void)themeKit:(void (^)(__kindof UIProgressView *  progressView))block;
 @end
 
 @protocol IGMThemeSearchBar<IGMThemeView>
@@ -146,7 +146,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UISearchBar()
 - (id<IGMThemeSearchBar>)themeKit;
-- (void)themeKit:(void (^)(UISearchBar *  searchBar))block;
+- (void)themeKit:(void (^)(__kindof UISearchBar *  searchBar))block;
 @end
 
 @protocol IGMThemeSlider<IGMThemeView>
@@ -162,7 +162,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UISlider()
 - (id<IGMThemeSlider>)themeKit;
-- (void)themeKit:(void (^)(UISlider *  slider))block;
+- (void)themeKit:(void (^)(__kindof UISlider *  slider))block;
 @end
 
 @protocol IGMThemeSwitch<IGMThemeView>
@@ -171,7 +171,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UISwitch()
 - (id<IGMThemeSwitch>)themeKit;
-- (void)themeKit:(void (^)(UISwitch *  sh))block;
+- (void)themeKit:(void (^)(__kindof UISwitch *  sh))block;
 @end
 
 
@@ -180,7 +180,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UITabBar()
 - (id<IGMThemeTabBar>)themeKit;
-- (void)themeKit:(void (^)(UITabBar *  tabBar))block;
+- (void)themeKit:(void (^)(__kindof UITabBar *  tabBar))block;
 @end
 
 @protocol IGMThemeTableView<IGMThemeView>
@@ -191,11 +191,11 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UITableView()
 - (id<IGMThemeTableView>)themeKit;
-- (void)themeKit:(void (^)(UITableView *  tableView))block;
+- (void)themeKit:(void (^)(__kindof UITableView *  tableView))block;
 @end
 
 @interface UITableViewCell()
-- (void)themeKit:(void (^)(UITableViewCell *  cell))block;
+- (void)themeKit:(void (^)(__kindof UITableViewCell *  cell))block;
 @end
 
 @protocol IGMThemeToolbar<IGMThemeView>
@@ -203,7 +203,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface UIToolbar()
 - (id<IGMThemeToolbar>)themeKit;
-- (void)themeKit:(void (^)(UIToolbar *  toolbar))block;
+- (void)themeKit:(void (^)(__kindof UIToolbar *  toolbar))block;
 @end
 
 @protocol IGMThemeLayer
@@ -213,7 +213,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface CALayer()
 - (id<IGMThemeLayer>)themeKit;
-- (void)themeKit:(void (^)(CALayer *  layer))block;
+- (void)themeKit:(void (^)(__kindof CALayer *  layer))block;
 @end
 
 @protocol IGMThemeShapeLayer<IGMThemeLayer>
@@ -222,7 +222,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 @interface CAShapeLayer()
 - (id<IGMThemeShapeLayer>)themeKit;
-- (void)themeKit:(void (^)(CAShapeLayer *  layer))block;
+- (void)themeKit:(void (^)(__kindof CAShapeLayer *  layer))block;
 @end
 
 NS_ASSUME_NONNULL_END
