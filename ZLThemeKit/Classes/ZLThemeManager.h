@@ -9,6 +9,13 @@
 #import "IGMTheme.h"
 
 NS_ASSUME_NONNULL_BEGIN
+
+typedef NSString * ZLThemeValue NS_STRING_ENUM;
+//默认模式
+extern ZLThemeValue const ZLThemeValueNormal;
+//暗黑模式
+extern ZLThemeValue const ZLThemeValueNight;
+
 UIColor* _Nullable kColorWithKey(NSString * _Nullable key);
 UIImage* _Nullable kImageWithKey(NSString * _Nullable key);
 NSNumber* _Nullable kAlphaWithKey(NSString * _Nullable key);
@@ -16,19 +23,16 @@ NSNumber* _Nullable kAlphaWithKey(NSString * _Nullable key);
 extern NSString * const kThemeKitWillChangeNotification;
 ////主题变化UI更改完成通知
 extern NSString * const kThemeKitDidChangedNotification;
-//默认模式
-extern NSString * const kThemeKitNormal;
-//暗黑模式
-extern NSString * const kThemeKitNight;
+
 
 typedef NSDictionary<NSString *,NSDictionary<NSString*,NSDictionary<NSString*,id>*>*> ZLThemeSourceType;
 @interface ZLThemeManager : NSObject
 
 /// 根据文件解析主题集合
-@property (nonatomic,strong,readonly)NSArray<NSString *> *themes;
+@property (nonatomic,strong,readonly)NSArray<ZLThemeValue> *themes;
 
 /// 当前主题
-@property (nonatomic,copy,readonly)NSString *currentTheme;
+@property (nonatomic,copy,readonly)ZLThemeValue currentTheme;
 
 /// 状态栏是否设置跟随主题变化 默认YES
 @property (nonatomic, assign) BOOL supportsStatusBar;
@@ -45,11 +49,11 @@ typedef NSDictionary<NSString *,NSDictionary<NSString*,NSDictionary<NSString*,id
 @property (nonatomic,copy)NSNumber *defaultAlpha;
 
 /// 颜色选择器
-@property (nonatomic,copy)UIColor* (^pickerColorBlock)(NSString * _Nullable key, NSString * _Nullable theme);
+@property (nonatomic,copy)UIColor* (^pickerColorBlock)(NSString * _Nullable key, ZLThemeValue theme);
 /// 图片选择器
-@property (nonatomic,copy)UIImage* (^pickerImageBlock)(NSString * _Nullable key, NSString * _Nullable theme);
+@property (nonatomic,copy)UIImage* (^pickerImageBlock)(NSString * _Nullable key, ZLThemeValue theme);
 /// 透明度选择器
-@property (nonatomic,copy)CGFloat (^pickerAlphaBlock)(NSString * _Nullable key, NSString * _Nullable theme);
+@property (nonatomic,copy)CGFloat (^pickerAlphaBlock)(NSString * _Nullable key, ZLThemeValue theme);
 
 + (instancetype)share;
 
@@ -67,7 +71,7 @@ typedef NSDictionary<NSString *,NSDictionary<NSString*,NSDictionary<NSString*,id
 /// - Parameter themeSource: <#themeSource description#>
 - (void)loadFromDictionaryInfo:(ZLThemeSourceType *)themeSource;
 
-- (void)updateTheme:(NSString *)theme;
+- (void)updateTheme:(ZLThemeValue )theme;
 /// 刷新UI
 - (void)refresh;
 

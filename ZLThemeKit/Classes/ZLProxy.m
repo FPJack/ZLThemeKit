@@ -125,9 +125,9 @@ static const void *MyThemeKitId = &MyThemeKitId;
 - (NSString *)theme {
     return ZLThemeManager.share.currentTheme;
 }
-+ (void)changeTheme:(NSString *)theme {
++ (void)changeTheme:(ZLThemeValue )theme {
     if (ZLThemeManager.share.supportsStatusBar) {
-        if ([theme isEqualToString:kThemeKitNight]) {
+        if ([theme isEqualToString:ZLThemeValueNight]) {
             [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
         }else {
             [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
@@ -214,10 +214,10 @@ static const void *MyThemeKitId = &MyThemeKitId;
     NSString *theme = ZLThemeManager.share.currentTheme;
     if ([view isKindOfClass:UITextField.class]
         || [view isKindOfClass:UITextView.class]) {
-        UIKeyboardAppearance apperance = [theme isEqualToString:kThemeKitNight] ? UIKeyboardAppearanceDark : UIKeyboardAppearanceLight;
+        UIKeyboardAppearance apperance = [theme isEqualToString:ZLThemeValueNight] ? UIKeyboardAppearanceDark : UIKeyboardAppearanceLight;
         ((UITextField *)view).keyboardAppearance = apperance;
     }else if ([view isKindOfClass:UISearchBar.class]) {
-        UIKeyboardAppearance apperance = [theme isEqualToString:kThemeKitNight] ? UIKeyboardAppearanceDark : UIKeyboardAppearanceLight;
+        UIKeyboardAppearance apperance = [theme isEqualToString:ZLThemeValueNight] ? UIKeyboardAppearanceDark : UIKeyboardAppearanceLight;
         if (@available(iOS 13.0, *)) {
             ((UISearchBar *)view).searchTextField.keyboardAppearance = apperance;
         } else {

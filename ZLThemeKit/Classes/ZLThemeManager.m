@@ -14,8 +14,8 @@
 
 NSString * const kThemeKitWillChangeNotification = @"kThemeKitWillChangeNotification";
 NSString * const kThemeKitDidChangedNotification = @"kThemeKitDidChangedNotification";
-NSString * const kThemeKitNormal = @"NORMAL";
-NSString * const kThemeKitNight = @"NIGHT";
+ZLThemeValue const ZLThemeValueNormal = @"NORMAL";
+ZLThemeValue const ZLThemeValueNight = @"NIGHT";
 
 @interface ZLTableObj : NSObject
 @property (nonatomic,strong)NSArray<NSString *> *themes;
@@ -153,13 +153,13 @@ NSString * const kThemeKitNight = @"NIGHT";
     NSLog(@"加载当前主题---%@",theme);
 #endif
     if ([self.themes containsObject:theme]) {
-        self.currentTheme = theme ? theme : kThemeKitNormal;
+        self.currentTheme = theme ? theme : ZLThemeValueNormal;
     }
 }
 - (void)updateTheme:(NSString *)theme {
     self.currentTheme = theme;
 }
-- (NSString *)currentTheme {
+- (ZLThemeValue )currentTheme {
     if (!_currentTheme) {
         NSString *theme = [NSUserDefaults.standardUserDefaults objectForKey:kZLThemeKitKey];
         _currentTheme = theme ? theme : self.colorTable.themes.firstObject;
