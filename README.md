@@ -9,6 +9,7 @@
 
 安装
 ```ruby
+支持SPM导入和CocoaPods导入
 pod 'ZLThemeKit'
 ```
 
